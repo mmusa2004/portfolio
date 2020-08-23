@@ -1,0 +1,676 @@
+.mediaViewInfo {
+	--web-view-name: Hobbies;
+	--web-view-id: Hobbies;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Hobbies;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Hobbies {
+	position: absolute;
+	width: 1920px;
+	height: 2078px;
+	background-color: rgba(226,226,226,1);
+	overflow: hidden;
+	--web-view-name: Hobbies;
+	--web-view-id: Hobbies;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Scroll_Group_1 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1920px;
+	height: 2078px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_24 {
+	opacity: 0.68;
+	position: absolute;
+	width: 1920px;
+	height: 2881px;
+	left: 0px;
+	top: -803px;
+	overflow: visible;
+}
+#titlewithbckgrnd {
+	position: absolute;
+	width: 751px;
+	height: 447px;
+	left: 608.5px;
+	top: 97px;
+	overflow: visible;
+}
+#Rectangle_13 {
+	fill: rgba(0,0,0,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 389px;
+	height: 365px;
+	left: 362px;
+	top: 28px;
+}
+#Things {
+	left: 242px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 241px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Onyx;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 148px;
+	color: rgba(4,4,0,1);
+}
+#I_like_to_do {
+	left: 0px;
+	top: 116px;
+	position: absolute;
+	overflow: visible;
+	width: 743px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Onyx;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 289px;
+	color: rgba(4,4,0,1);
+}
+#My_Hobbies {
+	left: 342px;
+	top: 96px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Mistral;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(4,4,0,1);
+}
+#colimg {
+	position: absolute;
+	width: 439px;
+	height: 438px;
+	left: 286px;
+	top: 544px;
+	overflow: visible;
+}
+#col1text {
+	position: absolute;
+	width: 439px;
+	height: 980px;
+	left: 286px;
+	top: 1065px;
+	overflow: visible;
+}
+#The_end_of_2019_and_this_year_ {
+	display: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 440px;
+	height: 778px;
+	line-height: 32px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(140,0,174,1);
+	letter-spacing: 0.1px;
+}
+#The_end_of_2019_and_this_year__u {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 440px;
+	height: 980px;
+	line-height: 32px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+}
+#col2text {
+	position: absolute;
+	width: 427.848px;
+	height: 920.14px;
+	left: 746.5px;
+	top: 1065px;
+	overflow: visible;
+}
+#The_end_of_2019_and_this_year__w {
+	display: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 428.848px;
+	height: 786.139892578125px;
+	line-height: 32px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(140,0,174,1);
+	letter-spacing: 0.1px;
+}
+#Group_22 {
+	position: absolute;
+	width: 427.848px;
+	height: 920.14px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#The_end_of_2019_and_this_year__y {
+	display: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 428.848px;
+	height: 913.139892578125px;
+	line-height: 32px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+}
+#The_end_of_2019_and_this_year__z {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 428.848px;
+	height: 920.139892578125px;
+	line-height: 32px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+}
+#col3text {
+	position: absolute;
+	width: 427.848px;
+	height: 609.578px;
+	left: 1215.152px;
+	top: 1065.422px;
+	overflow: visible;
+}
+#The_end_of_2019_and_this_year__ {
+	display: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 428.848px;
+	height: 719.5775756835938px;
+	line-height: 32px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(140,0,174,1);
+	letter-spacing: 0.1px;
+}
+#Group_22_ {
+	position: absolute;
+	width: 427.848px;
+	height: 609.578px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#The_end_of_2019_and_this_year__ba {
+	display: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 428.848px;
+	height: 846.5775756835938px;
+	line-height: 32px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+}
+#Group_27 {
+	position: absolute;
+	width: 427.848px;
+	height: 609.578px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#The_end_of_2019_and_this_year__bb {
+	display: none;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 428.848px;
+	height: 592.5775756835938px;
+	line-height: 32px;
+	margin-top: -5.5px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+}
+#The_end_of_2019_and_this_year__bc {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 428.848px;
+	height: 609.5775756835938px;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+}
+#Reading {
+	left: 449px;
+	top: 1008px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: High Tower Text;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+	text-transform: capitalize;
+}
+#Walking_Outdoors {
+	left: 773.5px;
+	top: 1008px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: High Tower Text;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+	text-transform: capitalize;
+}
+#Travel_The_World {
+	left: 1290.152px;
+	top: 1008px;
+	position: absolute;
+	overflow: visible;
+	width: 287px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: High Tower Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: rgba(66,2,139,0.918);
+	letter-spacing: 0.1px;
+	text-transform: capitalize;
+}
+#col2img {
+	position: absolute;
+	width: 432px;
+	height: 438px;
+	left: 744px;
+	top: 544px;
+	overflow: visible;
+}
+#col3img {
+	position: absolute;
+	width: 430px;
+	height: 438px;
+	left: 1204px;
+	top: 544px;
+	overflow: visible;
+}
+#footer {
+	position: absolute;
+	width: 1920px;
+	height: 53px;
+	left: 0px;
+	top: 2033px;
+	overflow: visible;
+}
+#Rectangle_9 {
+	opacity: 0.9;
+	fill: rgba(60,60,76,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 46px;
+	left: 0px;
+	top: 0px;
+}
+#Mohamed_Musa__Phone_952-807-23 {
+	left: 596px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 783px;
+	height: 44px;
+	text-align: center;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#articleimg {
+	position: absolute;
+	width: 402px;
+	height: 265px;
+	left: 1218px;
+	top: 1682px;
+	overflow: visible;
+}
+#navbarbckgrnd {
+	opacity: 0.9;
+	fill: rgba(60,60,76,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.navbarbckgrnd {
+	position: fixed;
+	overflow: visible;
+	width: 1920px;
+	height: 75px;
+	left: 0px;
+	top: -1px;
+}
+#homebtn {
+	position: fixed;
+	width: 49px;
+	height: 47px;
+	left: 48px;
+	top: 7px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+}
+#backbtn {
+	position: fixed;
+	width: 74px;
+	height: 43px;
+	left: 109px;
+	top: 10px;
+	overflow: visible;
+}
+#resumebtn {
+	position: fixed;
+	width: 143px;
+	height: 45px;
+	left: 1175px;
+	top: 9px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Resume.html;
+	cursor: pointer;
+}
+#Path_1 {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Resume {
+	mix-blend-mode: lighten;
+	left: 22px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#hobbiesbtn {
+	position: fixed;
+	width: 143px;
+	height: 43px;
+	left: 1561px;
+	top: 13px;
+	overflow: visible;
+}
+#Path_2 {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2 {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Hobbies_bo {
+	mix-blend-mode: lighten;
+	left: 26px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#contactbtn {
+	position: fixed;
+	width: 143px;
+	height: 43px;
+	left: 1754px;
+	top: 13px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Contacts.html;
+	cursor: pointer;
+}
+#Path_2_bq {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_bq {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contacts {
+	mix-blend-mode: lighten;
+	left: 26px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#gallerybtn {
+	position: fixed;
+	width: 143px;
+	height: 43px;
+	left: 1368px;
+	top: 13px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Gallery.html;
+	cursor: pointer;
+}
+#Path_2_bt {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_bt {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Gallery {
+	mix-blend-mode: lighten;
+	left: 26px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}

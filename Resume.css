@@ -1,0 +1,584 @@
+body{
+	justify-content: center;
+}
+/* .mediaViewInfo {
+	--web-view-name: Resume;
+	--web-view-id: Resume;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+} */
+:root {
+	--web-view-ids: Resume;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Resume {
+	position: absolute;
+	width: 1920px;
+	height: 1915px;
+	background-color: rgba(245,245,220,1);
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: Resume;
+	--web-view-id: Resume;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#sidebar {
+	opacity: 0.17;
+	fill: rgba(110,98,112,1);
+}
+.sidebar {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 1504px;
+	left: 273px;
+	top: 288px;
+}
+#headerbckground {
+	fill: rgba(112,30,206,0.859);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.headerbckground {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 183px;
+	left: 277px;
+	top: 75px;
+}
+#nametag {
+	position: absolute;
+	width: 875px;
+	height: 120px;
+	left: 710px;
+	top: 98px;
+	overflow: visible;
+}
+#MOHAMED_MUSA {
+	left: 60px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 551px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bodoni MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 61px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#ID13450_Carbury_Way_Rosemount_ {
+	left: 60px;
+	top: 65px;
+	position: absolute;
+	overflow: visible;
+	width: 550px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Modern No. 20;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Phone_952-807-2313__email_musa {
+	left: 0px;
+	top: 89px;
+	position: absolute;
+	overflow: visible;
+	width: 876px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Microsoft Uighur;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#myresumepic {
+	position: absolute;
+	width: 201px;
+	height: 183px;
+	left: 442px;
+	top: 75px;
+	overflow: visible;
+}
+#OBJECTIVE {
+	left: 405px;
+	top: 293px;
+	position: absolute;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(152,92,22,1);
+}
+#SKILLS__ABILITIES {
+	left: 277px;
+	top: 444px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 43px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(152,92,22,1);
+}
+#EXPERIENCE {
+	left: 277px;
+	top: 595px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 43px;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(152,92,22,1);
+}
+#EDUCATION {
+	left: 277px;
+	top: 1316px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 43px;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(152,92,22,1);
+}
+#TECHNICAL_SKILLS___PROGRAMMING {
+	left: 277px;
+	top: 1419px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 151px;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(152,92,22,1);
+}
+#REFRENCES {
+	left: 277px;
+	top: 1607px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 46px;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(152,92,22,1);
+}
+#Dedicated_and_highly_skilled_T {
+	left: 643px;
+	top: 293px;
+	position: absolute;
+	overflow: visible;
+	width: 986px;
+	height: 172px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Coding_and_Scripting____Testin {
+	left: 643px;
+	top: 444px;
+	position: absolute;
+	overflow: visible;
+	width: 986px;
+	height: 69px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#SUMMIT_ACADEMY_OIC_Minneapolis {
+	left: 643px;
+	top: 595px;
+	position: absolute;
+	overflow: visible;
+	width: 986px;
+	height: 300px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#POLAR_SEMICONDUCTOR_INC_Bloomi {
+	left: 643px;
+	top: 860px;
+	position: absolute;
+	overflow: visible;
+	width: 1001px;
+	height: 300px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#MMC_Technology_MAXTOR_Corp_San {
+	left: 638px;
+	top: 1096px;
+	position: absolute;
+	overflow: visible;
+	width: 991px;
+	height: 174px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#_CONCORDIA_UNIVERSITY_St_Paul_ {
+	left: 638px;
+	top: 1286px;
+	position: absolute;
+	overflow: visible;
+	width: 602px;
+	height: 102px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Technical_skills_and_tools_Pro {
+	left: 638px;
+	top: 1419px;
+	position: absolute;
+	overflow: visible;
+	width: 1006px;
+	height: 300px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Ahmed_Abdi_Polar_Semiconductor {
+	left: 638px;
+	top: 1607px;
+	position: absolute;
+	overflow: visible;
+	width: 991px;
+	height: 193px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#footerbckgrnd {
+	opacity: 0.9;
+	fill: rgba(60,60,76,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.footerbckgrnd {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 46px;
+	left: 0px;
+	top: 1870px;
+}
+#Mohamed_Musa__Phone_952-807-23 {
+	left: 596px;
+	top: 1879px;
+	position: absolute;
+	overflow: visible;
+	width: 783px;
+	height: 44px;
+	text-align: center;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#navbarbckgrnd {
+	opacity: 0.9;
+	fill: rgba(60,60,76,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.navbarbckgrnd {
+	position: fixed;
+	overflow: visible;
+	width: 1920px;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+}
+#homebtn {
+	position: fixed;
+	width: 49px;
+	height: 47px;
+	left: 48px;
+	top: 8px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home.html;
+	cursor: pointer;
+}
+#backbtn {
+	position: fixed;
+	width: 74px;
+	height: 43px;
+	left: 109px;
+	top: 11px;
+	overflow: visible;
+}
+#resumebtn {
+	position: fixed;
+	width: 143px;
+	height: 45px;
+	left: 1175px;
+	top: 10px;
+	overflow: visible;
+}
+#Path_1 {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Resume_bc {
+	mix-blend-mode: lighten;
+	left: 22px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#hobbiesbtn {
+	position: fixed;
+	width: 143px;
+	height: 43px;
+	left: 1561px;
+	top: 14px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Hobbies.html;
+	cursor: pointer;
+}
+#Path_2 {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2 {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Hobbies {
+	mix-blend-mode: lighten;
+	left: 26px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#contactbtn {
+	position: fixed;
+	width: 143px;
+	height: 43px;
+	left: 1754px;
+	top: 14px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Contacts.html;
+	cursor: pointer;
+}
+#Path_2_bh {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_bh {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contacts {
+	mix-blend-mode: lighten;
+	left: 26px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#gallerybtn {
+	position: fixed;
+	width: 143px;
+	height: 43px;
+	left: 1368px;
+	top: 14px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Gallery.html;
+	cursor: pointer;
+}
+#Path_2_bk {
+	filter: blur(47px);
+	fill: rgba(60,100,101,1);
+	stroke: rgba(190,110,63,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_bk {
+	filter: drop-shadow(1.5px 2px 0.5px rgba(111, 0, 151, 1));
+	overflow: visible;
+	position: absolute;
+	width: 146.25px;
+	height: 42.75px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Gallery {
+	mix-blend-mode: lighten;
+	left: 26px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Curlz MT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
